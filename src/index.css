@@ -1,0 +1,39 @@
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;}
+/* @font-face {
+  font-family: "MADE Outer Sans";
+  src: url('./fonts/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf');
+}
+
+.title-aboutme{font-family: "MADE Outer Sans";} .title-programs{font-family: "MADE Outer Sans";}
+.title{font-family: "MADE Outer Sans";} */
+
+html {
+  --scrollbarBG: #cfd8dc;
+  --thumbBG: #90a4ae;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body {
+  background-color: #2b2e35;
+  color: #aac2ce;
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG);
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}

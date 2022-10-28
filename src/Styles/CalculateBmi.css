@@ -1,0 +1,180 @@
+
+@font-face {
+  font-family: "MADE Outer Sans regular";
+  src: url("../fonts/MADE\ Outer\ Sans\ Regular\ PERSONAL\ USE.otf");
+}
+@font-face {
+  font-family: "MADE Outer Sans thin";
+  src: url("../fonts/MADE\ Outer\ Sans\ Thin\ PERSONAL\ USE.otf");
+}
+.calculat-bmi {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #e3e6e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  color: #aac2ce;
+  margin: 0;
+  padding: 0;
+}
+/* bmi result */
+.bmi-result {
+  font-family: "MADE Outer Sans regular";
+  color: #2c5364;
+  font-size: 40px;
+}
+.bmi-result span {
+  font-family: "MADE Outer Sans regular";
+  color: #c79f5a;
+}
+/* bmi range */
+.bmi-range {
+  color: #2c5364;
+  font-size: 40px;
+  font-family: "MADE Outer Sans thin";
+}
+.bmi-range span {
+  color: #c79f5a;
+  font-family: "MADE Outer Sans thin";
+}
+input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  margin: 4px;
+  color: red;
+}
+::placeholder {
+  color: #aac2ce;
+}
+
+.submit {
+  width: 220px;
+  color: white;
+  font-size: 16px;
+  background-color: #c79f5a;
+  margin-bottom: 40px;
+  height: 52px;
+}
+
+.calculat-bmi h1:nth-child(1) {
+  font-family: "MADE Outer Sans regular";
+  font-size: 36px;
+  color: #2b5263;
+}
+
+.calculat-bmi h1:nth-child(2) {
+  font-family: "MADE Outer Sans thin";
+  font-size: 36px;
+  color: #2b5263;
+}
+.MuiTypography-root {
+  color: #2b5263 !important;
+  padding-bottom: 20px !important;
+}
+.MuiFormControl-root {
+  background-color: white;
+}
+/* style ligne */
+.css-1480iag-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 3px solid #c79e5a !important;
+  width: 60px;
+  margin-left: 20px;
+}
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: 3px solid #c79e5a !important;
+}
+.InputLabel {
+  color: #aac2ce !important;
+}
+
+.form-bmi {
+  display: "flex";
+  flex-direction: "column";
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .css-b995z3-MuiFormControl-root {
+    width: 13ch !important;
+  }
+  .css-1480iag-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 3px solid #c79e5a !important;
+    width: 50px;
+    margin-left: 12px;
+  }
+  .submit {
+    width: 118px;
+    color: white;
+    font-size: 12px;
+    background-color: #c79f5a;
+    /* margin-bottom: 40px;
+    height: 52px; */
+  }
+  .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after
+{
+  border-bottom: 3px solid #c79e5a !important;
+ 
+}
+  .MuiTypography-root {
+    font-size: 12px !important;
+    padding-bottom: 20px !important;
+  }
+  .MuiInputLabel-root {
+    font-size: 14px !important;
+  }
+}
+@media (max-width: 576px) {
+  .css-b995z3-MuiFormControl-root {
+    width: 8ch !important;
+  }
+  .MuiTypography-root {
+    font-size: 10px !important;
+    padding-bottom: 20px !important;
+  }
+  .MuiInputLabel-root {
+    font-size: 12px !important;
+  }
+  .css-1480iag-MuiInputBase-root-MuiInput-root:before {
+    border-bottom: 3px solid #c79e5a !important;
+    width: 40px;
+    margin-left: 18px;
+  }
+  .css-1480iag-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 3px solid #c79e5a !important;
+  }
+  /* probleme distance entre inputs */
+  .MuiInput-custom {
+    width: auto !important;
+  }
+  .submit {
+    width: 100%;
+    color: white;
+    background-color: #c79f5a;
+    margin-bottom: 40px;
+    height: 52px;
+    padding: 0;
+    margin: 0 5px 40px 5px;
+  }
+  .MuiFormControl-root {
+    padding-top: 0px !important;
+  }
+  .calculat-bmi h1:nth-child(1) {
+    font-size: 20px;
+  }
+
+  .calculat-bmi h1:nth-child(2) {
+    font-size: 20px;
+  }
+  .error {
+    background-color: red;
+  }
+  .bmi-result {
+    font-size: 20px;
+  }
+  .bmi-range {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b32ed5be.chunk.css",
+    "main.js": "/static/js/main.aedc60d9.chunk.js",
+    "main.js.map": "/static/js/main.aedc60d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fc615617.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fc615617.js.map",
+    "static/css/2.65f8c46c.chunk.css": "/static/css/2.65f8c46c.chunk.css",
+    "static/js/2.40713a02.chunk.js": "/static/js/2.40713a02.chunk.js",
+    "static/js/2.40713a02.chunk.js.map": "/static/js/2.40713a02.chunk.js.map",
+    "static/js/3.7ff1fcd5.chunk.js": "/static/js/3.7ff1fcd5.chunk.js",
+    "static/js/3.7ff1fcd5.chunk.js.map": "/static/js/3.7ff1fcd5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.65f8c46c.chunk.css.map": "/static/css/2.65f8c46c.chunk.css.map",
+    "static/css/main.b32ed5be.chunk.css.map": "/static/css/main.b32ed5be.chunk.css.map",
+    "static/js/2.40713a02.chunk.js.LICENSE.txt": "/static/js/2.40713a02.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/static/media/gym.3a3b0368.png",
+    "static/media/CalculateBmi.css": "/static/media/MADE Outer Sans Regular PERSONAL USE.40662520.otf",
+    "static/media/beforeafter.f68e48ac.png": "/static/media/beforeafter.f68e48ac.png",
+    "static/media/diet.175bf70c.png": "/static/media/diet.175bf70c.png",
+    "static/media/fahmi.54a9c31a.png": "/static/media/fahmi.54a9c31a.png",
+    "static/media/fcb.b73b27f2.svg": "/static/media/fcb.b73b27f2.svg",
+    "static/media/group.f6ee1bf8.png": "/static/media/group.f6ee1bf8.png",
+    "static/media/insta.cdc6a664.svg": "/static/media/insta.cdc6a664.svg",
+    "static/media/About.css": "/static/media/myPhoto2.8945be8f.png",
+    "static/media/App.css": "/static/media/programDiet.779e7f44.png",
+    "static/media/oto-training.86a90c71.png": "/static/media/oto-training.86a90c71.png",
+    "static/media/pattern-circle-bleu.c3b665f1.png": "/static/media/pattern-circle-bleu.c3b665f1.png",
+    "static/media/pattern-circle.f37f7f86.png": "/static/media/pattern-circle.f37f7f86.png",
+    "static/media/slick-theme.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/youtube.3f01e785.svg": "/static/media/youtube.3f01e785.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fc615617.js",
+    "static/css/2.65f8c46c.chunk.css",
+    "static/js/2.40713a02.chunk.js",
+    "static/css/main.b32ed5be.chunk.css",
+    "static/js/main.aedc60d9.chunk.js"
+  ]
+}

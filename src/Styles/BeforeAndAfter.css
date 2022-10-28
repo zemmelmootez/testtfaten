@@ -1,0 +1,148 @@
+.program-request {
+  margin: 0px 4px;
+}
+.btn-oto {
+  width: fit-content;
+  color: white;
+  background-color: #c79f5a;
+
+  height: 52px;
+  padding: 8px 16px;
+  margin: 0;
+  z-index: 2;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.section-elements-beforeandafter {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+    "element touch"
+    "submit-oto touch";
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.submit-oto {
+  grid-area: submit-oto;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+.touch {
+  grid-area: touch;
+  margin-top: 10%;
+}
+.element-beforeandafter {
+  grid-area: element;
+  width: 70%;
+  margin: auto;
+}
+.zigzag {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  width: 400px;
+  height: 100%;
+}
+
+.card {
+  display: block;
+  width: 90%;
+  background-color: transparent;
+  border: 0;
+}
+
+.card-responsive {
+  display: none;
+}
+
+.slick-slide {
+  height: 380px !important;
+  box-sizing: border-box;
+  padding: 4px;
+}
+
+.slick-slide img {
+  border-radius: 3%;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #aac2ce;
+}
+.slick-dots li button:before {
+  color: #aac2ce;
+}
+.slick-prev:before {
+  content: "←";
+  color: red;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-size: 24px;
+  opacity: 0.75;
+  color: #aac2ce;
+}
+@media (max-width: 576px) {
+  .section-elements-beforeandafter {
+    padding: 0px 10%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 25% 60% 15%;
+    grid-template-areas:
+      "element"
+      " touch"
+      "submit-oto";
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+  }
+.element-beforeandafter p{
+  width:88%
+}
+  .touch {
+    margin: 0px;
+    width: 320px;
+    height: 320px;
+  }
+  .element-beforeandafter {
+    width: 100%;
+    margin: auto;
+  }
+
+  .zigzag {
+    display: none;
+  }
+  .pattern-blue {
+    display: none;
+  }
+  .btn-oto {
+    width: 94%;
+    padding: 4px 16px;
+  }
+  .submit-oto {
+    grid-area: submit-oto;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card-responsive {
+    display: block;
+    width: 80%;
+    background-color: transparent;
+  }
+}
